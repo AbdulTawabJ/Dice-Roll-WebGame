@@ -90,6 +90,6 @@ else if(rand2 > rand1)
     winnerid = document.querySelector("#two").id;
 }
 
-document.querySelector(".foot").innerHTML = "<a href='dicee.html'>Reset</a>   <br>  🎲 Toss format DICE game from : ATJ 🎲";
+document.querySelector(".foot").innerHTML = "<a href='index.html'>Reset</a>   <br>  🎲 Toss format DICE game from : ATJ 🎲";
 
 }
