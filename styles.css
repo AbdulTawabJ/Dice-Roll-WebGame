@@ -112,7 +112,7 @@ img{
   margin: 0px;
 }
 #spotlight{
-  transition: 0s;
+  transition: 0.2s;
   width:55%
 }
 .spotl{
