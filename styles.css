@@ -1,0 +1,136 @@
+*{
+  transition: 1s;
+}
+body{
+  background-image: url("./images/bg.png");
+  margin: 0px;
+  padding: 0px;
+}
+.btn{
+  display: flex;
+  margin-left: 20%;
+  justify-content: center;
+  width:60%;
+  min-width: max-content;
+}
+
+.cont{
+  display: flex;
+  justify-content: space-around;
+  
+}
+
+button{
+  transition: 0.25s;
+  border: 1px outset #282f3e ;
+  background-color: #1a202c;
+  box-shadow: 10px 10px  black;
+  border-radius: 250px;
+}
+
+button:hover{
+  transition: 0.25s;
+  box-shadow: 15px 10px  black;
+  transform: scaleY(103%);
+}
+button:active{
+  border: 3px outset #0f131a ;
+  box-shadow: 0px 0px  black;
+}
+.container {
+  background: #1f2836;
+  border: 1vh dashed black;
+  /* box-shadow: 0px 0px 100px 100px #1f2836dd; */
+  height: 100vh;
+  width: 70%;
+  position: relative;
+  top: -1.7vh;
+  margin: auto;
+  text-align: center;
+}
+
+.dice {
+  text-align: center;
+  display: inline-block;
+
+}
+
+h1 {
+  margin: 15px;
+  font-family: 'Lobster', cursive;
+  text-shadow: 5px 0 #232931;
+  font-size: 6.5rem;
+  color: #4ECCA3;
+}
+
+h2 {
+  margin: 15px;
+  font-family: 'Lobster', cursive;
+  text-shadow: 5px 0 #232931;
+  font-size: 4rem;
+  color: #4ECCA3;
+}
+
+.names {
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+  text-align: center;
+  font-size: 3rem;
+  color: #4ECCA3;
+  font-family: 'indie flower', cursive;
+  background-color: transparent;
+  border: none;
+}
+.names:focus{
+  transition: 0.25s;
+  font-size: 3.05rem;
+  outline: none;
+}
+
+
+.im{
+  width: 45%;
+}
+
+footer{
+  margin-top: 10%;
+  color: #EEEEEE;
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+a{
+  color: red;
+}
+a:hover{
+  color: rgb(186, 250, 36);
+}
+
+img{
+  transform: none;
+  padding: 0px;
+  margin: 0px;
+}
+#spotlight{
+  transition: 0s;
+  width:55%
+}
+.spotl{
+  display: block;
+  z-index: 1;
+  position: absolute;
+  top: -55px;
+  left: -215px;
+  transform: scale(85%);
+}
+.spotr{
+  display: block;
+  z-index: 1;
+  transform: scaleX(-1) scale(85%);
+  position: absolute;
+  top:-55px;
+  right: -215px;
+}
+.spot{
+  display: none;
+}
